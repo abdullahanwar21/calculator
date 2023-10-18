@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lavender;
+}
+#main {
+  height: 93vh;
+  width: 320px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 35px 35px 16px -32px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: 35px 35px 16px -32px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 35px 35px 16px -32px rgba(0, 0, 0, 0.91);
+}
+.calculation {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 1.5rem;
+  text-align: right;
+  font-size: larger;
+  font-weight: bold;
+  margin: 1rem 0;
+  background-color: transparent;
+}
+.ans-box {
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  font-size: larger;
+  color: wheat;
+  text-align: right;
+  background-color: #000;
+  box-shadow: -3px 28px 14px -20px rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: -3px 28px 14px -20px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: -3px 28px 14px -20px rgba(0, 0, 0, 0.83);
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin: 15px 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: larger;
+  background-color: #f7f0f5;
+  cursor: pointer;
+  box-shadow: -1px 8px 27px -3px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: -1px 8px 27px -3px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: -1px 8px 27px -3px rgba(0, 0, 0, 0.91);
+}
+.last-btn {
+  width: 42%;
+  color: #fff;
+  background-color: #000;
+}
